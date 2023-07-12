@@ -1,0 +1,32 @@
+# .gitignore
+
+# Ignorar a pasta vendor (onde as dependências do composer são instaladas)
+/vendor/
+
+# Ignorar arquivos .env, que geralmente contêm informações sensíveis
+.env
+
+# Ignorar arquivos .log
+*.log
+
+# Ignorar arquivos de cache do sistema
+cache/*
+!cache/.keep
+
+# Ignorar arquivos de sessão
+sessions/*
+!sessions/.keep
+
+# Ignorar arquivos de teste
+tests/*
+!tests/.keep
+
+# Ignorar arquivos de build
+build/*
+
+# Ignorar arquivos de configuração do IDE (por exemplo, para o PhpStorm)
+.idea/
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
